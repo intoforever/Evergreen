@@ -21,5 +21,17 @@ services:
     ports:
       - "6379:6379"
 
+  scheduler:
+      build: ./scheduler-service
+      ports: ["8080:8080"]
+
+  notification:
+      build: ./notification-service
+      ports: ["8081:8081"]
+
+  logger:
+      build: ./logger-service
+      ports: ["8082:8082"]
+
 volumes:
   evergreen_pgdata:

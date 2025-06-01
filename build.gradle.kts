@@ -21,6 +21,7 @@ allprojects {
 }
 
 subprojects {
+
     // ────────────────────────────────────────────────────────────────────────
     // 1) 공통 플러그인
     // ────────────────────────────────────────────────────────────────────────
@@ -38,7 +39,7 @@ subprojects {
         implementation("org.springframework.boot:spring-boot-starter-web:3.2.5")
         implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.2.5") // JPA
         implementation("org.springframework.boot:spring-boot-starter-data-redis:3.2.5") // REDIS
-        testImplementation("org.springframework.boot:spring-boot-starter-test:5.10.2") // JUnit5
+        testImplementation("org.springframework.boot:spring-boot-starter-test:3.2.5") // JUnit5
 
         // Lombok
         implementation("org.projectlombok:lombok:1.18.30")

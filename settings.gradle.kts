@@ -1,2 +1,2 @@
 rootProject.name = "evergreen"
-//include("scheduler-service")
+include("scheduler-service")

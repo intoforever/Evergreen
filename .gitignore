@@ -1,8 +1,33 @@
 # IDE
-.idea/**
+.idea/
+*.iml
 
-# Docker
-/infra/.env
+# OS
+.DS_Store
+Thumbs.db
 
 # Gradle
-.gradle/**
+.gradle/
+**/build/
+
+# Logs
+*.log
+**/logs/
+
+# Environment
+*.env
+.env.*
+!*.env.example
+
+# Java
+*.class
+
+# IntelliJ 설정 관련
+out/
+
+# Kotlin
+*.kts~
+
+# Test Reports
+**/test-results/
+**/test-report/

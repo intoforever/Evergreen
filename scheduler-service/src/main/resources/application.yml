@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: scheduler-service
+
+    config:
+        import: optional:file:../infra/application-dev.yml

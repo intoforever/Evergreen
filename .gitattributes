@@ -1,2 +1,2 @@
 # 바이너리 diff 비활성화
-gradle/wrapper/gradle-wrapper.jar binary
+*.jar binary

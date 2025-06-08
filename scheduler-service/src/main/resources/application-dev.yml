@@ -4,3 +4,8 @@ spring:
 
     config:
         import: optional:file:../infra/application-dev.yml
+
+rabbitmq:
+    exchange: notification.exchange
+    queue: notification.queue
+    routing-key: notification.key

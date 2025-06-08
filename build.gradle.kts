@@ -49,5 +49,8 @@ subprojects {
 
         // DB
         runtimeOnly(libs.postgresql)
+
+        // Jackson
+        implementation(libs.jackson.databind)
     }
 }

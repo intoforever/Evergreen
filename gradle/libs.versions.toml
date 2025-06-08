@@ -5,6 +5,7 @@ lombok = "1.18.30"
 postgresql = "42.7.3"
 redis = "3.2.5"
 junit = "3.2.5"
+jackson = "2.17.1"
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.0" }
@@ -18,6 +19,7 @@ spring-boot-devtools = { module = "org.springframework.boot:spring-boot-devtools
 spring-boot-starter-data-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa", version.ref = "spring-boot" }
 spring-boot-starter-data-redis = { module = "org.springframework.boot:spring-boot-starter-data-redis", version.ref = "spring-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "junit" }
+jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jackson" }
 
 lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
 postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
